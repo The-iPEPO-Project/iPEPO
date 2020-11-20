@@ -5,7 +5,7 @@ BASE=`pwd`
 BIN=${BASE}/../ising_imag_ipeps
 
 # Load variables for grid run
-. grid-common.sh
+# . grid-common.sh
 
 # Read in parameters
 . params-imaginary-ising-ipeps.sh
