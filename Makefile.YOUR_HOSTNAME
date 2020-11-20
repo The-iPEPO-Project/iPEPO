@@ -1,0 +1,6 @@
+FC=gfortran
+LD=gfortran
+
+NAGLIB=-lacml_mp -lnag_nag
+NAGDIR=-L/opt/NAG/fll6a24dfl/lib/ -L/opt/NAG/fll6a24dfl/acml/
+NAGINC=-I/opt/NAG/fll6a24dfl/nag_interface_blocks/
